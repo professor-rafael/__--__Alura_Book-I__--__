@@ -1,0 +1,86 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #2e9584;
+    --laranja: #a1bc41;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 0px;
+}
+
+.relogio{
+	justify-content: space-around;
+	padding: 2em;
+}
+.aba-conteudo.ativo{
+	display:block;
+}
+.aba-conteudo{
+	display: none;
+}
+.aba-conteudo-titulo-principal{
+	font-size: 28px;
+	text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+	text-align: center;
+	text-transform: uppercase;
+}
+.contador{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.contador-digito {
+	padding: 10  26px;
+	text-align: center;
+	min-width: 100px;
+}
+.contador-digito-numero{
+	font-size: 50px;
+	margin: 0;
+}
+.contador-digito-texto{
+	font-size: 20px;
+	margin: 0;
+}
